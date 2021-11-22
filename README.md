@@ -16,9 +16,9 @@ abdelkhalek abdelmalek mohamed Sec:  1  B.N : 47
 
 • 2 legs	
 
-##2- the full body Rotation is through the mouse
+## 2- the full body Rotation is through the mouse
 
-##3- keyboard keys to control body parts as follow :
+## 3- keyboard keys to control body parts as follow :
 
 We used small latters to perform movement in + direction and capital latters in the reverse direction
 
@@ -46,7 +46,7 @@ Here is a list of the movement on each segment of the body
 |Thumb Finger base part Rotation|9|(|
 |Thumb Finger top part Rotation|0|)|
 
-##Limits of the Rotations :
+## Limits of the Rotations :
 
 As we all know that every rotation must have a limit so we limited each segment with different angles. 
 
@@ -62,11 +62,11 @@ The two legs have 80 degree limit in Z direction and Y direction.
 
 The two thighs have 80 degree limit.
 
-##Note : 
+## Note : 
 
 Both arms are controlled with the same keyboard keys they are rotating together.
 
-##4- Camera Movement Controls :
+## 4- Camera Movement Controls :
 
 
 |Camera Process|+direction|-direction|
