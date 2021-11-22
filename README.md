@@ -6,7 +6,7 @@ Mohamed moustafa nezar Sec:  2  B.N : 47
 abdalla mohamed shazly:  1  B.N : 52
 abdelkhalek abdelmalek mohamed Sec:  1  B.N : 47 
 
-##1- we made parts of the body as follow :
+## 1- we made parts of the body as follow :
 
 • head
 
