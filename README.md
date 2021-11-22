@@ -29,14 +29,14 @@ Here is a list of the movement on each segment of the body
 
 |**Body part**|**+direction**|**-direction**|
 | :-: | :-: | :-: |
-|` `Shoulder|q|Q|
+|Shoulder|q|Q|
 |Elbow|w|W|
 |Arm Rotation|e|E|
 |Right Leg Rotation in z direction|r|R|
 |Left Leg Rotation in z direction|t|T|
 |Right Leg Rotation in y direction|y|Y|
 |Left Leg Rotation in y direction|i|I|
-|` `Right Thigh |u|U|
+|Right Thigh |u|U|
 |Left Thigh|o|O|
 |Finger 1 base part Rotation|1|!|
 |Finger 1 top part Rotation|2|@|
@@ -78,9 +78,3 @@ Both arms are controlled with the same keyboard keys they are rotating together.
 |Vertical Rotation|v|V|
 |Horizontal Rotation|h|H|
 
-
-
-
-An image of the final shape :
-
-![](Aspose.Words.3f446607-0e8b-40fe-a290-a34406fa6111.001.png)
