@@ -1,80 +1,41 @@
-**Full Body Movement**
+# Signal-Composer-and-Reconstructor
+GUI Where you can compose your sinusoidal signal, delete it, sample it, and finally reconstruct it and verifying Nyquist theorem. 
+
+Here is a brief description of our signal composer GUI.
+
+![image](https://user-images.githubusercontent.com/61363974/141429005-d76c4005-09a9-449f-96a0-9b5edb2a52c1.png)
+
+the upper plot is for our current signal we want to add and the lower is for our total signals that we will work on
+
+so lets add some more signal !
+![image](https://user-images.githubusercontent.com/61363974/141429466-6921056b-afd3-465b-b273-892d014b2134.png)
+
+But what if we wanted to delete some signals ?
+we simply select it from our list and click delete as shown below
+![image](https://user-images.githubusercontent.com/61363974/141429741-e8175608-5446-4a5d-b617-81443016dbd6.png)
+
+So now we can either save our signal to load and work on later or add it immediatly to our signal veiwer and reconstractor.
+![image](https://user-images.githubusercontent.com/61363974/141430117-30973b46-104f-4a8e-bee3-d93cb2f5c6fd.png)
 
 
-|Name|Section|B.N|
-| :- | :- | :- |
-|محمد مصطفي نزار|**2**|**47**|
-|طارق صلاح|**1**|**44**|
-|عبدالله محمد شاذلي|**1**|**52**|
-|عبدالخالق عبدالملك محمد|**1**|**47**|
+So here we have our original plot in the upper viewr showing the sampling points a slider to change the sampling frequancy and the lower veiwer is to show our recontracted plot.
+![image](https://user-images.githubusercontent.com/61363974/141430518-abf07a80-2919-4532-904f-8b08ae1afdeb.png)
 
-1- we made parts of the body as follow :
+as we can see it didn't reconstrat perfectly as we are selection sampling freq lower than 2fmax
 
-• head
+so lets see what if we make it 2fmax
+![image](https://user-images.githubusercontent.com/61363974/141430777-42c5b748-a0dc-4ddb-b971-453d21c553da.png)
+Reconstracted Perfecly !!
 
-• Chest and Abdomen
+but what if we make our sample freq higher!! 
+let's try 3fmax for example
+![image](https://user-images.githubusercontent.com/61363974/141430905-0919bf3b-0a64-4a14-8e69-51def7e360d8.png)
+Same 2fmax but with more sample points in the upper graph!!
 
-• 2 arms with fingers
+which confirms Nyquist Theorm that all we need to do is sampling with 2fmax to reconstrat our data without losing any information.
 
-• 2 legs	
-
-2- the full body Rotation is through the mouse
-
-3- keyboard keys to control body parts as follow :
-
-We used small latters to perform movement in + direction and capital latters in the reverse direction
-
-Here is a list of the movement on each segment of the body
+finally a bottom to Show/Hide our reconstrated data
+![image](https://user-images.githubusercontent.com/61363974/141431441-aea264d4-2454-4a64-a4d4-3abde2f4ab64.png)
 
 
-|**Body part**|**+direction**|**-direction**|
-| :-: | :-: | :-: |
-|Shoulder|q|Q|
-|Elbow|w|W|
-|Arm Rotation|e|E|
-|Right Leg Rotation in z direction|r|R|
-|Left Leg Rotation in z direction|t|T|
-|Right Leg Rotation in y direction|y|Y|
-|Left Leg Rotation in y direction|i|I|
-|Right Thigh |u|U|
-|Left Thigh|o|O|
-|Finger 1 base part Rotation|1|!|
-|Finger 1 top part Rotation|2|@|
-|Finger 2 base part Rotation|3|#|
-|Finger 2 top part Rotation|4|$|
-|Finger 3 base part Rotation|5|%|
-|Finger 3 top part Rotation|6|^|
-|Finger 4 base part Rotation|7|&|
-|Finger 4 top part Rotation|8|\*|
-|Thumb Finger base part Rotation|9|(|
-|Thumb Finger top part Rotation|0|)|
-
-**Limits of the Rotations :**
-
-As we all know that every rotation must have a limit so we limited each segment with different angles. 
-
-The elbow has limits from 0 to 150.
-
-The shoulder has no limits.
-
-Each Finger-base has a limit from -5 to 40 except for the thumb which would start from 10 to -40 as it’s more flexible and in opposite direction.
-
-The upper part of the finger has a limit from -5 to 155 except for the thumb which has a limit from -5 to 90
-
-The two legs have 80 degree limit in Z direction and Y direction.
-
-The two thighs have 80 degree limit.
-
-Note : 
-
-Both arms are controlled with the same keyboard keys they are rotating together.
-
-4- Camera Movement Controls :
-
-
-|Camera Process|+direction|-direction|
-| :-: | :-: | :-: |
-|Zoom|z|Z|
-|Vertical Rotation|v|V|
-|Horizontal Rotation|h|H|
 
